@@ -11,28 +11,28 @@
 		14090A4E2185411800503C06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14090A4D2185411800503C06 /* ViewController.swift */; };
 		14090A502185411A00503C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14090A4F2185411A00503C06 /* Assets.xcassets */; };
 		14090A532185411A00503C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14090A512185411A00503C06 /* Main.storyboard */; };
-		14090A592185414B00503C06 /* Down.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49980B51FA560F8004EE42E /* Down.framework */; };
-		14090A5A2185414B00503C06 /* Down.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D49980B51FA560F8004EE42E /* Down.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1466417E218D2A18009627F9 /* Down.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49980B51FA560F8004EE42E /* Down.framework */; };
 		1466417F218D2A18009627F9 /* Down.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D49980B51FA560F8004EE42E /* Down.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		14954EA521A7DCB9001933C4 /* README-11:2:18.md in Resources */ = {isa = PBXBuildFile; fileRef = 14954EA421A7DCA3001933C4 /* README-11:2:18.md */; };
-		14954EA621A7DCBA001933C4 /* README-11:2:18.md in Resources */ = {isa = PBXBuildFile; fileRef = 14954EA421A7DCA3001933C4 /* README-11:2:18.md */; };
+		14954EA521A7DCB9001933C4 /* README-sample.md in Resources */ = {isa = PBXBuildFile; fileRef = 14954EA421A7DCA3001933C4 /* README-sample.md */; };
+		14954EA621A7DCBA001933C4 /* README-sample.md in Resources */ = {isa = PBXBuildFile; fileRef = 14954EA421A7DCA3001933C4 /* README-sample.md */; };
 		8A07D7D31F085EC6004D7141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A07D7D21F085EC6004D7141 /* AppDelegate.swift */; };
 		8A07D7D51F085EC6004D7141 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A07D7D41F085EC6004D7141 /* ViewController.swift */; };
 		8A07D7D81F085EC6004D7141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A07D7D61F085EC6004D7141 /* Main.storyboard */; };
 		8A07D7DA1F085EC6004D7141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A07D7D91F085EC6004D7141 /* Assets.xcassets */; };
 		8A07D7DD1F085EC6004D7141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A07D7DB1F085EC6004D7141 /* LaunchScreen.storyboard */; };
+		D4591E9C226D293F00EBD476 /* Down.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49980B51FA560F8004EE42E /* Down.framework */; };
+		D4591E9D226D293F00EBD476 /* Down.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D49980B51FA560F8004EE42E /* Down.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		14090A5B2185414B00503C06 /* PBXContainerItemProxy */ = {
+		14664180218D2A18009627F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D49980AF1FA560F8004EE42E /* Down.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 8A569F3F1E6B3E50008BE2AC;
 			remoteInfo = Down;
 		};
-		14664180218D2A18009627F9 /* PBXContainerItemProxy */ = {
+		D4591E9E226D293F00EBD476 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D49980AF1FA560F8004EE42E /* Down.xcodeproj */;
 			proxyType = 1;
@@ -53,20 +53,16 @@
 			remoteGlobalIDString = 8AFAEAFB1E6E32E900E09B68;
 			remoteInfo = DownTests;
 		};
+		D4C77E06240EEB64004675B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D49980AF1FA560F8004EE42E /* Down.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBA153A2344845500B54ECB;
+			remoteInfo = DownSnapshotTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		14090A5D2185414B00503C06 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				14090A5A2185414B00503C06 /* Down.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		14664182218D2A18009627F9 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,6 +70,17 @@
 			dstSubfolderSpec = 10;
 			files = (
 				1466417F218D2A18009627F9 /* Down.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4591EA0226D293F00EBD476 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D4591E9D226D293F00EBD476 /* Down.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,7 +95,7 @@
 		14090A522185411A00503C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14090A542185411A00503C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14090A5E2185443800503C06 /* macOS Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "macOS Demo.entitlements"; sourceTree = "<group>"; };
-		14954EA421A7DCA3001933C4 /* README-11:2:18.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README-11:2:18.md"; sourceTree = "<group>"; };
+		14954EA421A7DCA3001933C4 /* README-sample.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README-sample.md"; sourceTree = "<group>"; };
 		8A07D7CF1F085EC6004D7141 /* Down-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Down-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A07D7D21F085EC6004D7141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A07D7D41F085EC6004D7141 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14090A592185414B00503C06 /* Down.framework in Frameworks */,
+				D4591E9C226D293F00EBD476 /* Down.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +149,7 @@
 		14954EA321A7DCA3001933C4 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				14954EA421A7DCA3001933C4 /* README-11:2:18.md */,
+				14954EA421A7DCA3001933C4 /* README-sample.md */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -186,6 +193,7 @@
 			children = (
 				D49980B51FA560F8004EE42E /* Down.framework */,
 				D49980B71FA560F8004EE42E /* DownTests.xctest */,
+				D4C77E07240EEB64004675B3 /* DownSnapshotTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,12 +208,12 @@
 				14090A452185411800503C06 /* Sources */,
 				14090A462185411800503C06 /* Frameworks */,
 				14090A472185411800503C06 /* Resources */,
-				14090A5D2185414B00503C06 /* Embed Frameworks */,
+				D4591EA0226D293F00EBD476 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				14090A5C2185414B00503C06 /* PBXTargetDependency */,
+				D4591E9F226D293F00EBD476 /* PBXTargetDependency */,
 			);
 			name = "macOS Demo";
 			productName = "macOS Demo";
@@ -238,11 +246,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = down;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Down;
 				TargetAttributes = {
 					14090A482185411800503C06 = {
 						CreatedOnToolsVersion = 10.0;
+						DevelopmentTeam = 7V68668DJN;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
@@ -252,13 +262,13 @@
 					};
 					8A07D7CE1F085EC6004D7141 = {
 						CreatedOnToolsVersion = 8.3.3;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
 			buildConfigurationList = 8A07D7CA1F085EC6004D7141 /* Build configuration list for PBXProject "Down-Example" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -296,6 +306,13 @@
 			remoteRef = D49980B61FA560F8004EE42E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		D4C77E07240EEB64004675B3 /* DownSnapshotTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DownSnapshotTests.xctest;
+			remoteRef = D4C77E06240EEB64004675B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -305,7 +322,7 @@
 			files = (
 				14090A502185411A00503C06 /* Assets.xcassets in Resources */,
 				14090A532185411A00503C06 /* Main.storyboard in Resources */,
-				14954EA521A7DCB9001933C4 /* README-11:2:18.md in Resources */,
+				14954EA521A7DCB9001933C4 /* README-sample.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14954EA621A7DCBA001933C4 /* README-11:2:18.md in Resources */,
+				14954EA621A7DCBA001933C4 /* README-sample.md in Resources */,
 				8A07D7DD1F085EC6004D7141 /* LaunchScreen.storyboard in Resources */,
 				8A07D7DA1F085EC6004D7141 /* Assets.xcassets in Resources */,
 				8A07D7D81F085EC6004D7141 /* Main.storyboard in Resources */,
@@ -344,15 +361,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		14090A5C2185414B00503C06 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Down;
-			targetProxy = 14090A5B2185414B00503C06 /* PBXContainerItemProxy */;
-		};
 		14664181218D2A18009627F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Down;
 			targetProxy = 14664180218D2A18009627F9 /* PBXContainerItemProxy */;
+		};
+		D4591E9F226D293F00EBD476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Down;
+			targetProxy = D4591E9E226D293F00EBD476 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -396,17 +413,18 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7V68668DJN;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "macOS Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.glazeddonut.macOS-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.downMarkdown.macOS-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -422,16 +440,17 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7V68668DJN;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "macOS Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.glazeddonut.macOS-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.downMarkdown.macOS-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -439,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -499,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -561,11 +582,10 @@
 				INFOPLIST_FILE = "Down-Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.glazeddonut.Down-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.downMarkdown.Down-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -582,11 +602,10 @@
 				INFOPLIST_FILE = "Down-Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.glazeddonut.Down-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.downMarkdown.Down-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
